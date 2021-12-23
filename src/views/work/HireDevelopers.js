@@ -45,7 +45,6 @@ export default function HireDevelopers() {
                           > Get Started </button>
                         </div>
                     }
-                    
                   </div>
                   <div className="w-full lg:w-4/12 px-4 lg:order-1">
                     <div className="flex justify-center py-4 lg:pt-4 pt-8">
