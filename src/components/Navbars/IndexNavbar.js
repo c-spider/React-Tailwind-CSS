@@ -4,6 +4,10 @@ import { Link } from "react-router-dom";
 // components
 
 import IndexDropdown from "components/Dropdowns/IndexDropdown.js";
+import UserDropdown from "components/Dropdowns/UserDropdown.js";
+import TableDropdown from "components/Dropdowns/TableDropdown.js";
+import NotificationDropdown from "components/Dropdowns/NotificationDropdown";
+import Index from "views/Index";
 
 export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -19,7 +23,7 @@ export default function Navbar(props) {
               <img
                 alt="..."
                 className="align-middle border-none h-70-px rounded-lg"
-                src={require("assets/img/logos/Bolo-01.jpg").default}
+                src={require("assets/img/logos/Bolo-01.png").default}
               />
             </Link>
             <button
@@ -50,7 +54,14 @@ export default function Navbar(props) {
             </ul> */}
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="flex items-center">
-                <IndexDropdown />
+              <Link
+                to="/work/apply"
+                className={
+                  "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                }
+              >
+                Apply for jobs
+              </Link>
               </li>
               <li className="flex items-center">
                 <Link
