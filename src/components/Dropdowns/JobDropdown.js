@@ -40,11 +40,7 @@ const JobDropdown = () => {
         <Link
           to="/admin/dashboard"
           className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-        > Dashboard </Link>
-        <Link
-          to="/admin/settings"
-          className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-        > Settings </Link>
+        > <p className="mb-1"> Developer </p> <br/> <p> Front-end, Back-end, Full-stack, QA, etc. </p> </Link>
       </div>
     </div>
     </>

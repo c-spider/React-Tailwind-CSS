@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import JobDropdown from "components/Dropdowns/JobDropdown";
 
-export default function HireDevelopers() {
+export default function ApplyForJobs() {
   return (
     <>
       <main className="HireDevelopers-page">
@@ -69,7 +69,7 @@ export default function HireDevelopers() {
                           className="text-blueGray-700 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase">
                           <img
                             alt="..."
-                            className="align-middle border-none h-70-px rounded-lg"
+                            className="align-middle border-none rounded-lg h-8"
                             src={require("assets/img/companies/airbnb.png").default}
                           />
                         </Link>
@@ -80,7 +80,7 @@ export default function HireDevelopers() {
                           className="text-blueGray-700 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase">
                           <img
                             alt="..."
-                            className="align-middle border-none h-70-px rounded-lg"
+                            className="align-middle border-none rounded-lg h-8"
                             src={require("assets/img/companies/bridgestone.png").default}
                           />
                         </Link>
@@ -91,7 +91,7 @@ export default function HireDevelopers() {
                           className="text-blueGray-700 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase">
                           <img
                             alt="..."
-                            className="align-middle border-none h-70-px rounded-lg"
+                            className="align-middle border-none rounded-lg h-8"
                             src={require("assets/img/companies/cavaliers.png").default}
                           />
                         </Link>
@@ -102,7 +102,7 @@ export default function HireDevelopers() {
                           className="text-blueGray-700 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase">
                           <img
                             alt="..."
-                            className="align-middle border-none h-70-px rounded-lg"
+                            className="align-middle border-none rounded-lg h-8"
                             src={require("assets/img/companies/airbnb.png").default}
                           />
                         </Link>
@@ -113,7 +113,7 @@ export default function HireDevelopers() {
                           className="text-blueGray-700 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase">
                           <img
                             alt="..."
-                            className="align-middle border-none h-70-px rounded-lg"
+                            className="align-middle border-none rounded-lg h-8"
                             src={require("assets/img/companies/motorola.png").default}
                           />
                         </Link>
@@ -124,7 +124,7 @@ export default function HireDevelopers() {
                           className="text-blueGray-700 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase">
                           <img
                             alt="..."
-                            className="align-middle border-none h-70-px rounded-lg"
+                            className="align-middle border-none rounded-lg h-8"
                             src={require("assets/img/companies/shopify.png").default}
                           />
                         </Link>
@@ -135,7 +135,7 @@ export default function HireDevelopers() {
                           className="text-blueGray-700 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase">
                           <img
                             alt="..."
-                            className="align-middle border-none h-70-px rounded-lg"
+                            className="align-middle border-none rounded-lg h-8"
                             src={require("assets/img/companies/usc.png").default}
                           />
                         </Link>
